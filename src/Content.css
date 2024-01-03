@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    margin-top: 20vh;
+    background: whitesmoke;
+}
+h1 {
+    margin: 20px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.decrBtn, .incrBtn {
+    padding: 10px;
+    border: none;
+    background-color: rgb(124, 67, 74);
+    color: whitesmoke;
+}
+span {
+    font-size: 40px;
+    margin: 10px;
+}
